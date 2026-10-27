@@ -14,14 +14,14 @@ This project uses two datasets:
 
 1. PyCodeVul 
 
-[bug_dataset.zip](https://github.com/user-attachments/files/34048293/bug_dataset.zip)
+[vulnerability_dataset.zip](https://github.com/user-attachments/files/34048312/vulnerability_dataset.zip)
    - A benchmark dataset for Python vulnerability detection.
    - Contains code examples labeled or associated with security-related issues.
    - Useful for building and evaluating models that detect vulnerable Python patterns.
 
 2. PyTraceBugs 
 
-[vulnerability_dataset.zip](https://github.com/user-attachments/files/34048312/vulnerability_dataset.zip)
+[bug_dataset.zip](https://github.com/user-attachments/files/34048293/bug_dataset.zip)
    - A Python bug dataset with trace-based bug examples and debugging patterns.
    - Useful for studying common program defects, runtime issues, and bug classification behavior.
 
