@@ -1,6 +1,6 @@
 # code-classifier
 
-A machine learning project focused on detecting bugs and security vulnerabilities in Python code
+A machine-learning project that uses Python code datasets to explore automated detection of bugs and security vulnerabilities. The project is intended to grow into a tool that analyzes a specific GitHub pull request and reports potential issues in its changed code.
 
 ## Team Members
 - Annalee Nersten
@@ -31,4 +31,12 @@ This project uses two datasets:
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
+```
+
+## Data Preparation
+
+Download both zip files and put all data in the data/raw folder. Then run: 
+
+```bash
+python3 src/data_prep.py
 ```
