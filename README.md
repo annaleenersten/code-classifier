@@ -1,6 +1,6 @@
 # code-classifier
 
-A machine-learning project that uses Python code datasets to explore automated detection of bugs and security vulnerabilities. The project is intended to grow into a tool that analyzes a specific GitHub pull request and reports potential issues in its changed code.
+Machine-learning classifier that flags buggy and vulnerable Python code, with the goal of analyzing changes in a GitHub pull request.
 
 ## Team Members
 - Annalee Nersten
