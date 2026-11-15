@@ -40,3 +40,10 @@ Download both zip files and put all data in the data/raw folder. Then run:
 ```bash
 python3 src/data_prep.py
 ```
+
+## Train Models and save metrics.csv/evaluation.png
+
+```bash
+python3 src/main.py --task vuln        # vulnerability classifier
+python3 src/main.py --task bugs        # bug classifier
+```
